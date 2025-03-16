@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex's Website</title>
+    <style>
+      .center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .center-container img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      h1, p {
+        color: #ffffff;
+        width: 100%;
+      }
+
+      body {
+        background-color: #000000;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+    </style>
   </head>
+
   <body>
-    <img
-      src="https://github.com/hackclub/dinosaurs/raw/main/smart_dinosaur_docs.png"
-    />
-    <h1>Prophet Orpheus</h1>
-    <p>Coder Dino</p>
-    <p>Will code for food</p>
+    <div class="center-container">
+      <img src="https://media.tenor.com/1SZqNYJ9AegAAAAi/dome-cinematics-thumbs-up.gif" alt="Thumbs Up Gif" class="center" />
+      <h1>Here's my goofy website</h1>
+      <p>Fast donut</p>
+      <p>Spinning Donut Under Here</p>
+      <pre id="canvas" style="color: #ffffff; white-space: pre;"></pre>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>

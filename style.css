@@ -1,10 +1,11 @@
 img {
-    width: 200px;
-  }
+  width: 200px;
+}
 
-  body {
-    text-align: center;
-    font-family: 'Arial';
-    background: azure;
-    color: purple;
-  }
+body {
+  text-align: center;
+  font-family: 'Arial';
+  background: rgb(0, 0, 0);
+  color:#fff;
+  
+}
